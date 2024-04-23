@@ -1,0 +1,51 @@
+[
+  {
+    "model": "calcapi.colorcategory",
+    "pk": 1,
+    "fields": {
+      "name": "White/No Color"
+    }
+  },
+  {
+    "model": "calcapi.colorcategory",
+    "pk": 2,
+    "fields": {
+      "name": "Blonde"
+    }
+  },
+  {
+    "model": "calcapi.colorcategory",
+    "pk": 3,
+    "fields": {
+      "name": "Light Brown"
+    }
+  },
+  {
+    "model": "calcapi.colorcategory",
+    "pk": 4,
+    "fields": {
+      "name": "Dark Brown"
+    }
+  },
+  {
+    "model": "calcapi.colorcategory",
+    "pk": 5,
+    "fields": {
+      "name": "Red"
+    }
+  },
+  {
+    "model": "calcapi.colorcategory",
+    "pk": 6,
+    "fields": {
+      "name": "Mixed Colors"
+    }
+  },
+  {
+    "model": "calcapi.colorcategory",
+    "pk": 7,
+    "fields": {
+      "name": "Other"
+    }
+  }
+]
