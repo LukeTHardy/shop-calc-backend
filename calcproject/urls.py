@@ -19,11 +19,13 @@ from django.urls import include, path
 from rest_framework import routers
 from django.conf import settings
 from django.conf.urls.static import static
-from calcapi.views import WoodFormatViewSet
+from calcapi.views import WoodFormatViewSet, ColorCategoryViewSet, WoodViewSet
 
 
 router = routers.DefaultRouter(trailing_slash=False)
 router.register(r'woodformats', WoodFormatViewSet, 'woodformats')
+router.register(r'colorcategories', ColorCategoryViewSet, 'colorcategories')
+router.register(r'woods', WoodViewSet, 'woods')
 
 urlpatterns = [
     path('', include(router.urls)),

@@ -5,7 +5,7 @@ class Inventory(models.Model):
     user = models.ForeignKey(User, on_delete=models.CASCADE, related_name='inventory_added_by_this_user')
     wood = models.ForeignKey("Wood", on_delete=models.CASCADE, related_name='inventory_of_this_wood_type')
     format = models.ForeignKey("WoodFormat", on_delete=models.CASCADE, related_name='inventory_of_this_format')
-    entry_date = models.IntegerField(null=True)
+    entry_date = models.DateTimeField("date entered")
     quantity = models.IntegerField(null=True)
     length = models.IntegerField(null=True)
     width = models.IntegerField(null=True)

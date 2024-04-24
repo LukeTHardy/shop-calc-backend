@@ -1,0 +1,17 @@
+[
+  {
+    "model": "calcapi.wood",
+    "pk": 1,
+    "fields": {
+      "species": "Black Walnut",
+      "domestic": true,
+      "hardwood": true,
+      "density": 630,
+      "origin": "North America",
+      "appearance": "Rich chocolate-brown heartwood and blonde or white sapwood.  Potential for dramatic curly or quilting figure.",
+      "characteristics": "Versatile and popular hardwood is relatively easy to work with.",
+      "colorCat": 4,
+      "image": "images/woods/black_walnut.jpg"
+    }
+  }
+]

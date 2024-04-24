@@ -9,6 +9,7 @@ pylint = "*"
 djangorestframework = "*"
 django-cors-headers = "*"
 pylint-django = "*"
+pillow = "*"
 
 [dev-packages]
 
