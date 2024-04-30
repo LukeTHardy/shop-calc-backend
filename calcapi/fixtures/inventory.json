@@ -1,0 +1,15 @@
+[
+  {
+    "model": "calcapi.inventory",
+    "pk": 10,
+    "fields": {
+      "user": 2,
+      "species": 1,
+      "format": 1,
+      "quantity": 6,
+      "length": 96,
+      "width": 5,
+      "thickness": 1.25
+    }
+  }
+]
