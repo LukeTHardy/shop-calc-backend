@@ -1,10 +1,11 @@
 from django.contrib.auth import authenticate
 from django.contrib.auth.models import User
 from rest_framework.authtoken.models import Token
+from rest_framework import status
 from rest_framework.decorators import api_view, permission_classes
 from rest_framework.permissions import AllowAny
 from rest_framework.response import Response
-
+from django.core.exceptions import ObjectDoesNotExist
 
 @api_view(['POST'])
 @permission_classes([AllowAny])
@@ -14,26 +15,31 @@ def login_user(request):
     Method arguments:
       request -- The full HTTP request object
     '''
-    username = request.data['username']
-    password = request.data['password']
+    email = request.data.get('email')
+    password = request.data.get('password')
 
-    # Use the built-in authenticate method to verify
-    # authenticate returns the user object or None if no user is found
-    authenticated_user = authenticate(username=username, password=password)
-
-    # If authentication was successful, respond with their token
-    if authenticated_user is not None:
-        token = Token.objects.get(user=authenticated_user)
-        data = {
-            'valid': True,
-            'token': token.key,
-            'user_id': authenticated_user.id
-        }
-        return Response(data)
+    if email and password:
+        try:
+            user = User.objects.get(email=email)
+            authenticated_user = authenticate(username=user.username, password=password)
+            
+            if authenticated_user is not None:
+                token = Token.objects.get(user=authenticated_user)
+                data = {
+                    'valid': True,
+                    'token': token.key,
+                    'user_id': authenticated_user.id
+                }
+                return Response(data)
+            else:
+                data = {'valid': False, 'error': 'Invalid credentials'}
+                return Response(data, status=status.HTTP_400_BAD_REQUEST)
+        except ObjectDoesNotExist:
+            data = {'valid': False, 'error': 'User with this email does not exist'}
+            return Response(data, status=status.HTTP_400_BAD_REQUEST)
     else:
-        # Bad login details were provided. So we can't log the user in.
-        data = {'valid': False}
-        return Response(data)
+        data = {'valid': False, 'error': 'Email and password are required'}
+        return Response(data, status=status.HTTP_400_BAD_REQUEST)
 
 
 @api_view(['POST'])
@@ -45,27 +51,29 @@ def register_user(request):
       request -- The full HTTP request object
     '''
 
-    # Create a new user by invoking the `create_user` helper method
-    # on Django's built-in User model
-    new_user = User.objects.create_user(
-        username=request.data['username'],
-        password=request.data['password'],
-        first_name=request.data['first_name'],
-        last_name=request.data['last_name'],
-        email=request.data['email']
-    )
+    email = request.data.get('email')
+    password = request.data.get('password')
+    first_name = request.data.get('first_name')
+    last_name = request.data.get('last_name')
 
-    # Get the id of the newly created user
-    new_user_id = new_user.id
+    if email and password:
+        new_user = User.objects.create_user(
+            username=email,  # You can set email as the username
+            password=password,
+            first_name=first_name,
+            last_name=last_name,
+            email=email
+        )
 
-    # Use the REST Framework's token generator on the new user account
-    token = Token.objects.create(user=new_user)
+        token = Token.objects.create(user=new_user)
 
-    # Return the token and user id to the client
-    data = {
-        'valid': True,
-        'token': token.key,
-        'user_id': new_user_id
-    }
+        data = {
+            'valid': True,
+            'token': token.key,
+            'user_id': new_user.id
+        }
 
-    return Response(data)
+        return Response(data, status=status.HTTP_201_CREATED)
+    else:
+        data = {'valid': False, 'error': 'Email and password are required'}
+        return Response(data, status=status.HTTP_400_BAD_REQUEST)

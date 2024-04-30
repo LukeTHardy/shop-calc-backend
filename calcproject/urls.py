@@ -29,7 +29,7 @@ router.register(r'woods', WoodViewSet, 'woods')
 
 urlpatterns = [
     path('', include(router.urls)),
-    path("admin/", admin.site.urls),
+    path('admin/', admin.site.urls),
     path('register', register_user),
     path('login', login_user),
 ] + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
