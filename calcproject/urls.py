@@ -19,7 +19,7 @@ from django.urls import include, path
 from rest_framework import routers
 from django.conf import settings
 from django.conf.urls.static import static
-from calcapi.views import WoodFormatViewSet, ColorCategoryViewSet, WoodViewSet
+from calcapi.views import WoodFormatViewSet, ColorCategoryViewSet, WoodViewSet, register_user, login_user
 
 
 router = routers.DefaultRouter(trailing_slash=False)
@@ -29,5 +29,7 @@ router.register(r'woods', WoodViewSet, 'woods')
 
 urlpatterns = [
     path('', include(router.urls)),
-    path("admin/", admin.site.urls),
+    path('admin/', admin.site.urls),
+    path('register', register_user),
+    path('login', login_user),
 ] + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
