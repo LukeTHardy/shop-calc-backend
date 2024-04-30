@@ -1,0 +1,28 @@
+[
+  {
+    "model": "calcapi.inventory",
+    "pk": 1,
+    "fields": {
+      "user": 2,
+      "species": 1,
+      "format": 1,
+      "quantity": 6,
+      "length": 96,
+      "width": 5,
+      "thickness": 1.25
+    }
+  },
+  {
+    "model": "calcapi.inventory",
+    "pk": 2,
+    "fields": {
+      "user": 2,
+      "species": 1,
+      "format": 3,
+      "quantity": 3,
+      "length": 60,
+      "width": 4.25,
+      "thickness": 1.625
+    }
+  }
+]
