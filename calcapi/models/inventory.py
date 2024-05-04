@@ -14,6 +14,7 @@ class Inventory(models.Model):
     width = models.FloatField(null=True)
     thickness = models.FloatField(null=True)
     totalBF = models.FloatField(null=True)
+    notes = models.CharField(max_length=500, null=True, blank=True)
 
 @receiver(post_save, sender=Inventory)
 def calculate_totalBF(sender, instance, created, **kwargs):

@@ -44,6 +44,8 @@ class InventoryViewSet(ViewSet):
             inventory.length = float(request.data.get('length'))  # Convert to float
             inventory.width = float(request.data.get('width'))  # Convert to float
             inventory.thickness = float(request.data.get('thickness'))  # Convert to float
+            inventory.notes = request.data.get('notes')
+
 
             # Perform the calculation
             boardfeet = float((inventory.length * inventory.width * inventory.thickness * inventory.quantity) / 144)
@@ -67,9 +69,12 @@ class InventoryViewSet(ViewSet):
             inventory.species = Wood.objects.get(pk=request.data.get("species", inventory.species.pk))
             inventory.format = WoodFormat.objects.get(pk=request.data.get("format", inventory.format.pk))
             inventory.quantity = request.data.get('quantity', inventory.quantity)
-            inventory.length = float(request.data.get('length'), inventory.length)  # Convert to float
-            inventory.width = float(request.data.get('width'), inventory.width)  # Convert to float
-            inventory.thickness = float(request.data.get('thickness'), inventory.thickness)  # Convert to float
+            inventory.length = float(request.data.get('length'), inventory.length) 
+            inventory.width = float(request.data.get('width'), inventory.width) 
+            inventory.thickness = float(request.data.get('thickness'), inventory.thickness)
+            inventory.notes = request.data.get('notes', inventory.notes)
+            
+
 
             # Perform the calculation
             boardfeet = (inventory.length * inventory.width * inventory.thickness) / 144
