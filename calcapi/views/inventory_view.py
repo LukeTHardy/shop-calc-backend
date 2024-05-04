@@ -28,7 +28,8 @@ class InventoryViewSet(ViewSet):
             return Response({"message": ex.args[0]}, status=status.HTTP_404_NOT_FOUND)
 
     def list(self, request):
-        inventory = Inventory.objects.all()
+        user_id = request.user.id
+        inventory = Inventory.objects.filter(user__id=user_id)
         serializer = InventorySerializer(inventory, many=True, context={"request": request})
         return Response(serializer.data)
 
