@@ -9,7 +9,8 @@
       "quantity": 6,
       "length": 96,
       "width": 5,
-      "thickness": 1.25
+      "thickness": 1.25,
+      "notes": "This is a test entry."
     }
   }
 ]
