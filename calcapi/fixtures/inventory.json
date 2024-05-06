@@ -1,7 +1,91 @@
 [
   {
     "model": "calcapi.inventory",
-    "pk": 10,
+    "pk": 1,
+    "fields": {
+      "user": 2,
+      "species": 1,
+      "format": 1,
+      "quantity": 6,
+      "length": 96,
+      "width": 5,
+      "thickness": 1.25,
+      "notes": "This is a test entry."
+    }
+  },
+  {
+    "model": "calcapi.inventory",
+    "pk": 2,
+    "fields": {
+      "user": 2,
+      "species": 1,
+      "format": 1,
+      "quantity": 6,
+      "length": 96,
+      "width": 5,
+      "thickness": 1.25,
+      "notes": "This is a test entry."
+    }
+  },
+  {
+    "model": "calcapi.inventory",
+    "pk": 3,
+    "fields": {
+      "user": 2,
+      "species": 1,
+      "format": 1,
+      "quantity": 6,
+      "length": 96,
+      "width": 5,
+      "thickness": 1.25,
+      "notes": "This is a test entry."
+    }
+  },
+  {
+    "model": "calcapi.inventory",
+    "pk": 4,
+    "fields": {
+      "user": 2,
+      "species": 1,
+      "format": 1,
+      "quantity": 6,
+      "length": 96,
+      "width": 5,
+      "thickness": 1.25,
+      "notes": "This is a test entry."
+    }
+  },
+  {
+    "model": "calcapi.inventory",
+    "pk": 5,
+    "fields": {
+      "user": 2,
+      "species": 1,
+      "format": 1,
+      "quantity": 6,
+      "length": 96,
+      "width": 5,
+      "thickness": 1.25,
+      "notes": "This is a test entry."
+    }
+  },
+  {
+    "model": "calcapi.inventory",
+    "pk": 6,
+    "fields": {
+      "user": 2,
+      "species": 1,
+      "format": 1,
+      "quantity": 6,
+      "length": 96,
+      "width": 5,
+      "thickness": 1.25,
+      "notes": "This is a test entry."
+    }
+  },
+  {
+    "model": "calcapi.inventory",
+    "pk": 7,
     "fields": {
       "user": 2,
       "species": 1,
