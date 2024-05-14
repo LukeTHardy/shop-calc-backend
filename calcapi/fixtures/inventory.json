@@ -20,10 +20,10 @@
       "user": 2,
       "species": 2,
       "format": 1,
-      "quantity": 6,
-      "length": 96,
-      "width": 5,
-      "thickness": 1.25,
+      "quantity": 4,
+      "length": 60,
+      "width": 7,
+      "thickness": 1.5,
       "notes": "This is a test entry."
     }
   },
