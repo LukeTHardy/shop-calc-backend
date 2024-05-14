@@ -18,7 +18,7 @@
     "pk": 2,
     "fields": {
       "user": 2,
-      "species": 1,
+      "species": 2,
       "format": 1,
       "quantity": 6,
       "length": 96,
@@ -32,7 +32,7 @@
     "pk": 3,
     "fields": {
       "user": 2,
-      "species": 1,
+      "species": 2,
       "format": 1,
       "quantity": 6,
       "length": 96,
@@ -46,7 +46,7 @@
     "pk": 4,
     "fields": {
       "user": 2,
-      "species": 1,
+      "species": 3,
       "format": 1,
       "quantity": 6,
       "length": 96,
@@ -60,7 +60,7 @@
     "pk": 5,
     "fields": {
       "user": 2,
-      "species": 1,
+      "species": 4,
       "format": 1,
       "quantity": 6,
       "length": 96,
