@@ -19,12 +19,12 @@
     "fields": {
       "user": 2,
       "species": 2,
-      "format": 1,
-      "quantity": 4,
-      "length": 60,
-      "width": 7,
-      "thickness": 1.5,
-      "notes": "This is a test entry."
+      "format": 3,
+      "quantity": 1,
+      "length": 48,
+      "width": 24,
+      "thickness": 0.75,
+      "notes": null
     }
   },
   {
@@ -52,7 +52,7 @@
       "length": 96,
       "width": 5,
       "thickness": 1.25,
-      "notes": "This is a test entry."
+      "notes": null
     }
   },
   {
@@ -66,7 +66,7 @@
       "length": 96,
       "width": 5,
       "thickness": 1.25,
-      "notes": "This is a test entry."
+      "notes": null
     }
   },
   {
@@ -76,11 +76,11 @@
       "user": 2,
       "species": 1,
       "format": 1,
-      "quantity": 6,
+      "quantity": 4,
       "length": 96,
-      "width": 5,
-      "thickness": 1.25,
-      "notes": "This is a test entry."
+      "width": 5.75,
+      "thickness": 1.375,
+      "notes": null
     }
   },
   {
@@ -89,11 +89,11 @@
     "fields": {
       "user": 2,
       "species": 1,
-      "format": 1,
-      "quantity": 6,
-      "length": 96,
-      "width": 5,
-      "thickness": 1.25,
+      "format": 5,
+      "quantity": 3,
+      "length": 48,
+      "width": 1,
+      "thickness": 1,
       "notes": "This is a test entry."
     }
   }
