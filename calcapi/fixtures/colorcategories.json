@@ -24,26 +24,33 @@
     "model": "calcapi.colorcategory",
     "pk": 4,
     "fields": {
-      "name": "Dark Brown"
+      "name": "Medium Brown"
     }
   },
   {
     "model": "calcapi.colorcategory",
     "pk": 5,
     "fields": {
-      "name": "Red"
+      "name": "Dark Brown"
     }
   },
   {
     "model": "calcapi.colorcategory",
     "pk": 6,
     "fields": {
-      "name": "Mixed Colors"
+      "name": "Red"
     }
   },
   {
     "model": "calcapi.colorcategory",
     "pk": 7,
+    "fields": {
+      "name": "Mixed Colors"
+    }
+  },
+  {
+    "model": "calcapi.colorcategory",
+    "pk": 8,
     "fields": {
       "name": "Other"
     }

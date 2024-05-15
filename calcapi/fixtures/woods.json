@@ -10,8 +10,8 @@
       "origin": "North America",
       "appearance": "Walnut wood boasts a rich, deep brown color with elegant grain patterns that range from straight to wavy.",
       "characteristics": "Walnut wood is prized in woodworking for its excellent workability, which allows for smooth carving and shaping, as well as its moderate density and stability, making it ideal for intricate detailing and structural integrity in furniture and other crafted items.",
-      "colorCat": 4,
-      "image": "images/woods/black_walnut.jpg"
+      "colorCat": 5,
+      "image": "images/woods/black_walnut.webp"
     }
   },
   {
@@ -25,8 +25,8 @@
       "origin": "North America",
       "appearance": "Maple wood boasts a pale, creamy color with occasional reddish-brown streaks, offering a clean and uniform appearance that complements a variety of design styles.",
       "characteristics": "Maple wood is renowned for its durability and strength, featuring a fine, straight grain that makes it well-suited for both staining and painting, and its smooth texture allows for precise machining and finishing.",
-      "colorCat": 1,
-      "image": "images/woods/maple.png"
+      "colorCat": 2,
+      "image": "images/woods/maple.webp"
     }
   },
   {
@@ -40,8 +40,8 @@
       "origin": "North America",
       "appearance": "Cherry wood features a warm reddish-brown hue that deepens with age, often exhibiting subtle variations in color and occasional dark streaks or knots.",
       "characteristics": "Cherry wood is prized for its fine texture and smooth grain, lending itself well to both hand and machine tooling, and it finishes beautifully, showcasing a lustrous sheen that enhances its natural beauty.",
-      "colorCat": 3,
-      "image": "images/woods/cherry.png"
+      "colorCat": 4,
+      "image": "images/woods/cherry.jpg"
     }
   },
   {
@@ -56,7 +56,7 @@
       "appearance": "Poplar wood exhibits a pale creamy-white to light greenish-brown color with occasional streaks of gray or black, offering a versatile and economical option for woodworking projects.",
       "characteristics": "Poplar wood is known for its straight, uniform grain and lightweight nature, making it easy to work with hand and power tools, and it accepts stains and finishes well, though it may have occasional green or purple discoloration.",
       "colorCat": 1,
-      "image": "images/woods/poplar.png"
+      "image": "images/woods/poplar.jpeg"
     }
   },
   {
@@ -130,7 +130,7 @@
       "origin": "Europe",
       "appearance": "Olivewood features a distinctive yellow to olive-green hue with darker brown or black streaks and intricate grain patterns, offering a unique and exotic look for high-end woodworking projects.",
       "characteristics": "Olivewood is prized for its exceptional durability and hardness, as well as its distinctive beauty, and it is often used in specialty items such as carvings, utensils, and decorative accents, though it can be challenging to work with due to its density and interlocking grain.",
-      "colorCat": 6,
+      "colorCat": 2,
       "image": "images/woods/olivewood.png"
     }
   },

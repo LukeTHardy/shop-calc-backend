@@ -18,13 +18,13 @@
     "pk": 2,
     "fields": {
       "user": 2,
-      "species": 1,
-      "format": 1,
-      "quantity": 6,
-      "length": 96,
-      "width": 5,
-      "thickness": 1.25,
-      "notes": "This is a test entry."
+      "species": 2,
+      "format": 3,
+      "quantity": 1,
+      "length": 48,
+      "width": 24,
+      "thickness": 0.75,
+      "notes": null
     }
   },
   {
@@ -32,7 +32,7 @@
     "pk": 3,
     "fields": {
       "user": 2,
-      "species": 1,
+      "species": 2,
       "format": 1,
       "quantity": 6,
       "length": 96,
@@ -46,13 +46,13 @@
     "pk": 4,
     "fields": {
       "user": 2,
-      "species": 1,
+      "species": 3,
       "format": 1,
       "quantity": 6,
       "length": 96,
       "width": 5,
       "thickness": 1.25,
-      "notes": "This is a test entry."
+      "notes": null
     }
   },
   {
@@ -60,13 +60,13 @@
     "pk": 5,
     "fields": {
       "user": 2,
-      "species": 1,
+      "species": 4,
       "format": 1,
       "quantity": 6,
       "length": 96,
       "width": 5,
       "thickness": 1.25,
-      "notes": "This is a test entry."
+      "notes": null
     }
   },
   {
@@ -76,11 +76,11 @@
       "user": 2,
       "species": 1,
       "format": 1,
-      "quantity": 6,
+      "quantity": 4,
       "length": 96,
-      "width": 5,
-      "thickness": 1.25,
-      "notes": "This is a test entry."
+      "width": 5.75,
+      "thickness": 1.375,
+      "notes": null
     }
   },
   {
@@ -89,11 +89,11 @@
     "fields": {
       "user": 2,
       "species": 1,
-      "format": 1,
-      "quantity": 6,
-      "length": 96,
-      "width": 5,
-      "thickness": 1.25,
+      "format": 5,
+      "quantity": 3,
+      "length": 48,
+      "width": 1,
+      "thickness": 1,
       "notes": "This is a test entry."
     }
   }

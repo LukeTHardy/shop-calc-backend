@@ -22,6 +22,7 @@ class InventoryViewSet(ViewSet):
     def retrieve(self, request, pk):
         try:
             inventory = Inventory.objects.get(pk=pk)
+            inventory.totalBF = round((inventory.length * inventory.width * inventory.thickness * inventory.quantity) / 144, 2) if all([inventory.length, inventory.width, inventory.thickness, inventory.quantity]) else None
             serializer = InventorySerializer(inventory, context={"request": request})
             return Response(serializer.data)
         except Inventory.DoesNotExist as ex:
@@ -30,6 +31,8 @@ class InventoryViewSet(ViewSet):
     def list(self, request):
         user_id = request.user.id
         inventory = Inventory.objects.filter(user__id=user_id)
+        for item in inventory:
+            item.totalBF = round((item.length * item.width * item.thickness * item.quantity) / 144, 2) if all([item.length, item.width, item.thickness, item.quantity]) else None
         serializer = InventorySerializer(inventory, many=True, context={"request": request})
         return Response(serializer.data)
 
