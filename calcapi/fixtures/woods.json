@@ -11,7 +11,7 @@
       "appearance": "Walnut wood boasts a rich, deep brown color with elegant grain patterns that range from straight to wavy.",
       "characteristics": "Walnut wood is prized in woodworking for its excellent workability, which allows for smooth carving and shaping, as well as its moderate density and stability, making it ideal for intricate detailing and structural integrity in furniture and other crafted items.",
       "colorCat": 5,
-      "image": "images/woods/black_walnut.webp"
+      "image": "images/woods/black_walnut.png"
     }
   },
   {
@@ -26,7 +26,7 @@
       "appearance": "Maple wood boasts a pale, creamy color with occasional reddish-brown streaks, offering a clean and uniform appearance that complements a variety of design styles.",
       "characteristics": "Maple wood is renowned for its durability and strength, featuring a fine, straight grain that makes it well-suited for both staining and painting, and its smooth texture allows for precise machining and finishing.",
       "colorCat": 2,
-      "image": "images/woods/maple.webp"
+      "image": "images/woods/maple.png"
     }
   },
   {
@@ -41,7 +41,7 @@
       "appearance": "Cherry wood features a warm reddish-brown hue that deepens with age, often exhibiting subtle variations in color and occasional dark streaks or knots.",
       "characteristics": "Cherry wood is prized for its fine texture and smooth grain, lending itself well to both hand and machine tooling, and it finishes beautifully, showcasing a lustrous sheen that enhances its natural beauty.",
       "colorCat": 4,
-      "image": "images/woods/cherry.jpg"
+      "image": "images/woods/cherry.png"
     }
   },
   {
@@ -56,7 +56,7 @@
       "appearance": "Poplar wood exhibits a pale creamy-white to light greenish-brown color with occasional streaks of gray or black, offering a versatile and economical option for woodworking projects.",
       "characteristics": "Poplar wood is known for its straight, uniform grain and lightweight nature, making it easy to work with hand and power tools, and it accepts stains and finishes well, though it may have occasional green or purple discoloration.",
       "colorCat": 1,
-      "image": "images/woods/poplar.jpeg"
+      "image": "images/woods/poplar.png"
     }
   },
   {
@@ -100,8 +100,8 @@
       "origin": "North America",
       "appearance": "Eastern Cedar wood features a light reddish-brown to pinkish-gray color with distinctive aromatic properties, emitting a pleasant scent that deters moths and other pests.",
       "characteristics": "Eastern Cedar wood is renowned for its natural resistance to decay and insect infestation, making it an excellent choice for outdoor furniture, fencing, and lining closets and chests, and it is lightweight and easy to work with hand and power tools.",
-      "colorCat": 3,
-      "image": "images/woods/eastern_cedar.png"
+      "colorCat": 6,
+      "image": "images/woods/eastern_red_cedar.png"
     }
   },
   {
@@ -115,8 +115,8 @@
       "origin": "North America",
       "appearance": "Western Cedar wood boasts a rich reddish-brown to pale yellow color with prominent grain patterns and a distinct aromatic scent, adding warmth and character to various woodworking projects.",
       "characteristics": "Western Cedar wood is prized for its natural durability and resistance to decay and insects, making it an excellent choice for outdoor construction, siding, decking, and fencing, and it is lightweight and easy to work with hand and power tools.",
-      "colorCat": 3,
-      "image": "images/woods/western_cedar.png"
+      "colorCat": 6,
+      "image": "images/woods/western_red_cedar.png"
     }
   },
   {
@@ -145,7 +145,7 @@
       "origin": "Africa",
       "appearance": "Zebrawood showcases a striking contrast of light yellow to golden brown stripes against a dark brown or black background, resembling the stripes of a zebra, making it a visually striking choice for furniture and decorative accents.",
       "characteristics": "Zebrawood is prized for its unique appearance and bold grain patterns, and it is valued for its hardness and durability, though it can be challenging to work with due to its interlocking grain and potential for tear-out, and it finishes well with a clear sealant to highlight its natural beauty.",
-      "colorCat": 6,
+      "colorCat": 2,
       "image": "images/woods/zebrawood.png"
     }
   },
@@ -205,7 +205,7 @@
       "origin": "South America",
       "appearance": "Bloodwood features a vibrant reddish-orange to deep red color that darkens with exposure to light, often showcasing a fine, straight grain with occasional darker streaks or mottling, creating a visually striking appearance.",
       "characteristics": "Bloodwood is prized for its exceptional hardness, durability, and vibrant color, making it a popular choice for specialty woodworking projects such as turning, carving, and inlay work, though it can be challenging to work with due to its density and potential for blunting tools.",
-      "colorCat": 5,
+      "colorCat": 6,
       "image": "images/woods/bloodwood.png"
     }
   },
@@ -235,7 +235,7 @@
       "origin": "Africa",
       "appearance": "Thuya wood features a rich golden to reddish-brown color with dark, irregular grain patterns and distinctive burl clusters, creating a unique and exotic appearance reminiscent of burled wood.",
       "characteristics": "Thuya wood is prized for its exceptional beauty and rarity, making it a highly sought-after choice for luxury woodworking projects such as decorative boxes, veneers, and turned items, though it can be challenging to work with due to its density and potential for tear-out.",
-      "colorCat": 5,
+      "colorCat": 6,
       "image": "images/woods/thuya.png"
     }
   },
@@ -265,7 +265,7 @@
       "origin": "Africa",
       "appearance": "Padauk wood features a vibrant orange to deep reddish-brown color that darkens with age and exposure to light, often showcasing a straight grain with occasional darker streaks or mottling, creating a visually striking appearance.",
       "characteristics": "Padauk is prized for its exceptional hardness, durability, and vibrant color, making it a popular choice for specialty woodworking projects such as turning, carving, and inlay work, though it can be challenging to work with due to its density and potential for blunting tools.",
-      "colorCat": 5,
+      "colorCat": 6,
       "image": "images/woods/padauk.png"
     }
   },
@@ -310,7 +310,7 @@
       "origin": "Central and South America",
       "appearance": "Purpleheart wood features a striking purple to purplish-brown color that deepens with age and exposure to light, often showcasing a straight to irregular grain with occasional darker streaks or figuring, creating a visually stunning and exotic appearance.",
       "characteristics": "Purpleheart is prized for its exceptional hardness, durability, and vibrant color, making it a popular choice for specialty woodworking projects such as turned items, flooring, and decorative accents, though it can be challenging to work with due to its density and potential for blunting tools.",
-      "colorCat": 5,
+      "colorCat": 8,
       "image": "images/woods/purpleheart.png"
     }
   },
@@ -325,7 +325,7 @@
       "origin": "North America",
       "appearance": "Redwood showcases a warm reddish-brown to pinkish color with a straight grain and occasional knots, offering a rustic and natural aesthetic for outdoor and indoor woodworking projects.",
       "characteristics": "Redwood is prized for its natural resistance to decay and insects, making it an ideal choice for outdoor applications such as decking, siding, and fencing, and it is lightweight and easy to work with hand and power tools, though it may be prone to splintering.",
-      "colorCat": 5,
+      "colorCat": 6,
       "image": "images/woods/redwood.png"
     }
   },
@@ -340,7 +340,7 @@
       "origin": "Africa",
       "appearance": "Bubinga wood features a rich pinkish-red to reddish-brown color with dark streaks and a fine, straight grain, often exhibiting a pronounced figure and chatoyance, creating a visually captivating appearance.",
       "characteristics": "Bubinga is prized for its exceptional hardness, durability, and stunning appearance, making it a popular choice for high-end furniture, musical instruments, and decorative items, though it can be challenging to work with due to its density and interlocking grain.",
-      "colorCat": 5,
+      "colorCat": 6,
       "image": "images/woods/bubinga.png"
     }
   },
@@ -400,7 +400,7 @@
       "origin": "North America",
       "appearance": "Osage Orange wood showcases a vibrant golden to yellowish-orange color that deepens with age and exposure to light, often featuring a straight to interlocked grain with occasional knots or burls, creating a visually striking appearance.",
       "characteristics": "Osage Orange is prized for its exceptional hardness, durability, and vibrant color, making it a popular choice for specialty woodworking projects such as tool handles, bows, and turnery, and it finishes beautifully with a natural or stained finish to enhance its natural beauty and warmth.",
-      "colorCat": 5,
+      "colorCat": 8,
       "image": "images/woods/osage_orange.png"
     }
   },
@@ -535,7 +535,7 @@
       "origin": "South America",
       "appearance": "Snakewood showcases a rich reddish-brown color with distinctive black markings that resemble snakeskin, creating a unique and exotic appearance prized by woodworkers and artisans.",
       "characteristics": "Snakewood is prized for its exceptional hardness, density, and striking appearance, making it a highly sought-after choice for specialty woodworking projects such as turnery, inlay work, and decorative accents, though it can be challenging to work with due to its density and hardness.",
-      "colorCat": 5,
+      "colorCat": 6,
       "image": "images/woods/snakewood.png"
     }
   },
@@ -625,7 +625,7 @@
       "origin": "South America",
       "appearance": "Marblewood features a golden to orange-brown color with dark brown or black streaks and patterns that resemble marble, creating a visually striking and exotic appearance.",
       "characteristics": "Marblewood is prized for its unique appearance and attractive grain patterns, and it is valued for its hardness and durability, making it a popular choice for specialty woodworking projects such as turnery, inlay work, and decorative accents.",
-      "colorCat": 6,
+      "colorCat": 7,
       "image": "images/woods/marblewood.png"
     }
   },
@@ -640,7 +640,7 @@
       "origin": "Africa, India, Sri Lanka",
       "appearance": "Ebony wood showcases a deep black color with a fine, even texture and occasional dark brown streaks or highlights, creating a luxurious and elegant appearance prized by woodworkers and artisans.",
       "characteristics": "Ebony is prized for its exceptional hardness, density, and rich color, making it a highly sought-after choice for high-end furniture, musical instruments, and decorative items, though it can be challenging to work with due to its density and hardness.",
-      "colorCat": 4,
+      "colorCat": 8,
       "image": "images/woods/ebony.png"
     }
   },
@@ -655,8 +655,68 @@
       "origin": "Africa, Australia",
       "appearance": "Blackwood features a deep brown to black color with occasional lighter streaks or highlights, often exhibiting a fine, straight grain and a lustrous sheen, creating a rich and elegant appearance prized by woodworkers and artisans.",
       "characteristics": "Blackwood is prized for its exceptional hardness, durability, and rich color, making it a popular choice for high-end furniture, musical instruments, and decorative items, and it finishes well with natural oils or clear sealants to enhance its natural beauty and protect it from moisture and decay.",
-      "colorCat": 4,
+      "colorCat": 8,
       "image": "images/woods/blackwood.png"
+    }
+  },
+  {
+    "model": "calcapi.wood",
+    "pk": 45,
+    "fields": {
+      "species": "Ash",
+      "domestic": true,
+      "hardwood": true,
+      "density": 670,
+      "origin": "North America",
+      "appearance": "Ash wood showcases a light to medium brown color with a straight grain and coarse texture, often featuring a prominent grain pattern that adds character to its appearance.",
+      "characteristics": "Ash is prized for its strength, flexibility, and attractive appearance, making it a popular choice for furniture, cabinetry, flooring, and tool handles, and it finishes well with stains and clear sealants to enhance its natural beauty and grain.",
+      "colorCat": 3,
+      "image": "images/woods/ash.png"
+    }
+  },
+  {
+    "model": "calcapi.wood",
+    "pk": 46,
+    "fields": {
+      "species": "Wenge",
+      "domestic": false,
+      "hardwood": true,
+      "density": 880,
+      "origin": "Africa",
+      "appearance": "Wenge wood features a dark brown to black color with fine, closely spaced black veins and a straight grain, creating a striking and exotic appearance.",
+      "characteristics": "Wenge is prized for its exceptional hardness, durability, and distinctive appearance, making it a popular choice for high-end furniture, flooring, and decorative items, though it can be challenging to work with due to its density and hardness.",
+      "colorCat": 4,
+      "image": "images/woods/wenge.png"
+    }
+  },
+  {
+    "model": "calcapi.wood",
+    "pk": 47,
+    "fields": {
+      "species": "Brazilian Cherry",
+      "domestic": false,
+      "hardwood": true,
+      "density": 950,
+      "origin": "South America",
+      "appearance": "Brazilian Cherry wood, also known as Jatoba, features a rich reddish-brown color with darker streaks and a fine, even texture, offering a warm and elegant appearance.",
+      "characteristics": "Brazilian Cherry is prized for its exceptional hardness, durability, and rich color, making it a popular choice for flooring, cabinetry, and high-end furniture, and it finishes well with natural oils or clear sealants to enhance its natural beauty and protect it from wear and tear.",
+      "colorCat": 5,
+      "image": "images/woods/brazilian_cherry.png"
+    }
+  },
+  {
+    "model": "calcapi.wood",
+    "pk": 48,
+    "fields": {
+      "species": "Acacia",
+      "domestic": false,
+      "hardwood": true,
+      "density": 770,
+      "origin": "Australia, Asia, Africa",
+      "appearance": "Acacia wood features a rich golden to reddish-brown color with a distinctive grain pattern and occasional knots or streaks, offering a warm and inviting look for various woodworking projects.",
+      "characteristics": "Acacia is prized for its strength, durability, and attractive appearance, making it a popular choice for furniture, flooring, and decorative items, and it finishes well with stains and clear sealants to enhance its natural beauty and protect it from moisture and decay.",
+      "colorCat": 5,
+      "image": "images/woods/acacia.png"
     }
   }
 ]
