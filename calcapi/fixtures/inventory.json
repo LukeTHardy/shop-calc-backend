@@ -88,6 +88,34 @@
     "pk": 7,
     "fields": {
       "user": 2,
+      "species": 22,
+      "format": 1,
+      "quantity": 3,
+      "length": 103,
+      "width": 6.5,
+      "thickness": 1.25,
+      "notes": null
+    }
+  },
+  {
+    "model": "calcapi.inventory",
+    "pk": 8,
+    "fields": {
+      "user": 2,
+      "species": 9,
+      "format": 4,
+      "quantity": 10,
+      "length": 6,
+      "width": 1.75,
+      "thickness": 1.75,
+      "notes": null
+    }
+  },
+  {
+    "model": "calcapi.inventory",
+    "pk": 9,
+    "fields": {
+      "user": 2,
       "species": 1,
       "format": 5,
       "quantity": 3,
