@@ -18,3 +18,6 @@ class Wood(models.Model):
         null=True,
         validators=[FileExtensionValidator(allowed_extensions=['jpg', 'jpeg', 'png', 'webp', 'avif'])]
     )
+
+    def __str__(self):
+        return f'{self.species} - {self.origin} - {self.appearance}'
