@@ -718,5 +718,65 @@
       "colorCat": 5,
       "image": "images/woods/acacia.png"
     }
+  },
+  {
+    "model": "calcapi.wood",
+    "pk": 49,
+    "fields": {
+      "species": "Indian Rosewood",
+      "domestic": false,
+      "hardwood": true,
+      "density": 870,
+      "origin": "India",
+      "appearance": "Indian Rosewood features a rich brown to deep purple-brown color with darker streaks and a lustrous sheen, often exhibiting an intricate grain pattern that enhances its luxurious appearance.",
+      "characteristics": "Indian Rosewood is prized for its workability, durability, and beautiful color, making it a popular choice for high-end furniture, musical instruments, and decorative items, and it finishes exceptionally well with oils and sealants.",
+      "colorCat": 5,
+      "image": "images/woods/indian_rosewood.png"
+    }
+  },
+  {
+    "model": "calcapi.wood",
+    "pk": 50,
+    "fields": {
+      "species": "Patagonia Rosewood",
+      "domestic": false,
+      "hardwood": true,
+      "density": 980,
+      "origin": "South America",
+      "appearance": "Patagonia Rosewood features a medium to dark brown color with reddish hues and dramatic dark streaks, creating a visually striking and exotic appearance.",
+      "characteristics": "Patagonia Rosewood is prized for its hardness, strength, and rich color, making it a popular choice for flooring, high-end furniture, and specialty woodworking projects, with excellent finishing capabilities.",
+      "colorCat": 5,
+      "image": "images/woods/patagonia_rosewood.png"
+    }
+  },
+  {
+    "model": "calcapi.wood",
+    "pk": 51,
+    "fields": {
+      "species": "Bolivian Rosewood",
+      "domestic": false,
+      "hardwood": true,
+      "density": 960,
+      "origin": "South America",
+      "appearance": "Bolivian Rosewood, also known as Morado, features a deep brown to reddish-brown color with striking black streaks and a fine, straight grain, offering a luxurious and bold appearance.",
+      "characteristics": "Bolivian Rosewood is prized for its density, durability, and rich color, making it a popular choice for high-end furniture, musical instruments, and cabinetry, and it responds well to polishing and finishing.",
+      "colorCat": 5,
+      "image": "images/woods/bolivian_rosewood.png"
+    }
+  },
+  {
+    "model": "calcapi.wood",
+    "pk": 52,
+    "fields": {
+      "species": "Lignum Vitae",
+      "domestic": false,
+      "hardwood": true,
+      "density": 1280,
+      "origin": "Central America, Caribbean",
+      "appearance": "Lignum Vitae features a deep greenish-brown color with fine, even grain and a naturally oily surface, giving it a unique and dense appearance.",
+      "characteristics": "Lignum Vitae is prized for its extreme density, hardness, and natural oils, making it ideal for specialty applications like tool handles, bearings, and marine projects, though it can be difficult to work with due to its toughness.",
+      "colorCat": 4,
+      "image": "images/woods/lignum_vitae.png"
+    }
   }
 ]
